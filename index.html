@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>나의 연봉 계산기</title>
+  <meta name="description" content="나의 연봉 계산기를 통해 연봉 계산을 손쉽게 수행하세요." />
+  <meta name="keywords" content="나의 연봉 계산기, 연봉 계산기,연봉 도구, 급여 계산기,연봉 실수령,연봉 실수령액" />
+  <meta name="author" content="zunstar" />
+  <meta property="og:title" content="나의 연봉 계산기" />
+  <meta property="og:description" content="나의 연봉 계산기를 통해 연봉 계산을 손쉽게 수행할 수 있는 도구입니다." />
+  <meta property="og:image" content="/images/smartcalc-og-image.webp" />
+  <meta property="og:url" content="https://smartcalc-app.web.app" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- CSS 파일 참조 -->
+  <link rel="stylesheet" href="/src/styles/App.css" />
+  <script type="text/javascript">
+    (function () {
+      function openExternalBrowser() {
+        const url = window.location.href.toString();
+
+        const isIOS = () => /iPhone|iPad|iPod/i.test(navigator.userAgent);
+        const isAndroid = () => /Android/i.test(navigator.userAgent);
+        const isKakaoBrowser = () => /kakaotalk/i.test(navigator.userAgent.toLowerCase());
+
+        if (isKakaoBrowser()) {
+          if (isIOS()) {
+            window.location.href = `kakaotalk://web/openExternal?url=${encodeURIComponent(url)}`;
+          } else if (isAndroid()) {
+            window.location.href = `intent://${url.replace(/^https?:\/\//, '')}#Intent;scheme=https;package=com.android.chrome;end`;
+          } else {
+            window.location.href = url;
+          }
+        }
+      }
+
+      if (document.readyState !== 'loading') {
+        openExternalBrowser();
+      } else {
+        document.addEventListener('DOMContentLoaded', openExternalBrowser);
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
