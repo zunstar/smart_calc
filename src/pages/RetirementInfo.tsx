@@ -235,9 +235,9 @@ const RetirementInfo: FC = () => {
   return (
     <>
       <Helmet>
-        <title>퇴직 정보 입력 | 나의 연봉 계산기</title>
+        <title>퇴직 정보 입력 | 연봉 비서</title>
         <meta name="description" content="퇴직 정보를 입력하세요." />
-        <meta property="og:title" content="퇴직 정보 입력 | 나의 연봉 계산기" />
+        <meta property="og:title" content="퇴직 정보 입력 | 연봉 비서" />
         <meta property="og:description" content="퇴직 정보를 입력하세요." />
       </Helmet>
       <Box

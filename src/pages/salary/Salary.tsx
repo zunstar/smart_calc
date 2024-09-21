@@ -87,15 +87,15 @@ const Salary: FC = () => {
   return (
     <>
       <Helmet>
-        <title>내 연봉 등록 | 나의 연봉 계산기</title>
+        <title>내 연봉 등록 | 연봉 비서</title>
         <meta
           name="description"
-          content="연봉 계산기를 통해 내 연봉을 등록하고 계산하세요."
+          content="연봉 비서를 통해 내 연봉을 등록하고 계산하세요."
         />
-        <meta property="og:title" content="내 연봉 등록 | 나의 연봉 계산기" />
+        <meta property="og:title" content="내 연봉 등록 | 연봉 비서" />
         <meta
           property="og:description"
-          content="연봉 계산기를 통해 내 연봉을 등록하고 계산하세요."
+          content="연봉 비서를 통해 내 연봉을 등록하고 계산하세요."
         />
       </Helmet>
       <Box

@@ -44,9 +44,9 @@ const SalaryGrowth: FC = () => {
   return (
     <>
       <Helmet>
-        <title>연봉 상승률 | 나의 연봉 계산기</title>
+        <title>연봉 상승률 | 연봉 비서</title>
         <meta name="description" content="연봉 상승률을 계산하여 보여줍니다." />
-        <meta property="og:title" content="연봉 상승률 | 나의 연봉 계산기" />
+        <meta property="og:title" content="연봉 상승률 | 연봉 비서" />
         <meta
           property="og:description"
           content="연봉 상승률을 계산하여 보여줍니다."

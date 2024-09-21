@@ -12,7 +12,7 @@ const ServiceTerms: FC = () => {
         제1조 (목적)
       </Typography>
       <Typography variant="body1" gutterBottom>
-        본 약관은 연봉 계산기, 연차 계산기 및 퇴직금 계산기 등 다양한 계산기
+        본 약관은 연봉 비서, 연차 계산기 및 퇴직금 계산기 등 다양한 계산기
         서비스(이하 "개키우는개발자")의 이용 조건 및 절차에 관한 사항을 규정함을
         목적으로 합니다.
       </Typography>
@@ -22,7 +22,7 @@ const ServiceTerms: FC = () => {
       </Typography>
       <Typography variant="body1" gutterBottom>
         1. "서비스"란 이용자가 PC, 모바일 등 각종 디지털 기기를 통해 이용할 수
-        있는 연봉 계산기, 연차 계산기, 퇴직금 계산기 및 기타 관련 서비스를
+        있는 연봉 비서, 연차 계산기, 퇴직금 계산기 및 기타 관련 서비스를
         의미합니다.
         <br />
         2. "이용자"란 본 약관에 따라 서비스를 이용하는 자를 의미합니다.

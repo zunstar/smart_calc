@@ -13,7 +13,7 @@ const PrivacyPolicy: FC = () => {
         제1조 (목적)
       </Typography>
       <Typography variant="body1" gutterBottom>
-        본 개인정보 처리방침은 연봉 계산기, 연차 계산기, 퇴직금 계산기 등 다양한
+        본 개인정보 처리방침은 연봉 비서, 연차 계산기, 퇴직금 계산기 등 다양한
         계산기 서비스 (이하 "개키우는개발자")가 이용자의 개인정보를 어떻게 수집,
         이용, 보관, 처리하는지에 대한 사항을 규정함을 목적으로 합니다.
       </Typography>

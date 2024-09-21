@@ -44,9 +44,9 @@ const CompanyInfo: FC = () => {
   return (
     <>
       <Helmet>
-        <title>회사 정보 등록 | 나의 연봉 계산기</title>
+        <title>회사 정보 등록 | 연봉 비서</title>
         <meta name="description" content="회사 정보를 등록하세요." />
-        <meta property="og:title" content="회사 정보 등록 | 나의 연봉 계산기" />
+        <meta property="og:title" content="회사 정보 등록 | 연봉 비서" />
         <meta property="og:description" content="회사 정보를 등록하세요." />
       </Helmet>
       <Box

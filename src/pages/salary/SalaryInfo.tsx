@@ -152,9 +152,9 @@ const SalaryInfo: FC = () => {
   return (
     <>
       <Helmet>
-        <title>연봉 정보 | 나의 연봉 계산기</title>
+        <title>연봉 정보 | 연봉 비서</title>
         <meta name="description" content="연봉 정보를 확인하세요." />
-        <meta property="og:title" content="연봉 정보 | 나의 연봉 계산기" />
+        <meta property="og:title" content="연봉 정보 | 연봉 비서" />
         <meta property="og:description" content="연봉 정보를 확인하세요." />
       </Helmet>
       <Box
