@@ -21,10 +21,9 @@ export default defineConfig({
         process.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
       VITE_FIREBASE_APP_ID: process.env.VITE_FIREBASE_APP_ID,
       VITE_FIREBASE_MEASUREMENT_ID: process.env.VITE_FIREBASE_MEASUREMENT_ID,
-      VITE_VAPID_PUBLIC_KEY: process.env.VITE_VAPID_PUBLIC_KEY,
     },
   },
   server: {
-    port: 5173, // 개발 서버 포트 설정
+    port: 5174, // 개발 서버 포트 설정
   },
 });

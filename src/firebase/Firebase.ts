@@ -1,6 +1,5 @@
 // src/firebase/Firebase.ts
 import { initializeApp } from 'firebase/app';
-import { getMessaging } from 'firebase/messaging';
 import { getAnalytics, isSupported } from 'firebase/analytics';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
@@ -16,7 +15,6 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-const messaging = getMessaging(app);
 const auth = getAuth(app);
 const db = getFirestore(app);
 
@@ -27,4 +25,4 @@ isSupported().then((supported) => {
   }
 });
 
-export { app, messaging, analytics, auth, db };
+export { app, analytics, auth, db };
